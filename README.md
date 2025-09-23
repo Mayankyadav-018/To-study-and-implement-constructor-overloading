@@ -141,3 +141,46 @@ At the time of object creation, the compiler automatically calls the appropriate
 
 5> End
 
+# Rectangle Area using constructor overloading
+
+This program demonstrates the use of Constructor Overloading in C++.
+The Rectangle class contains three constructors with different parameter types:
+
+* A constructor with integer parameters that calculates and displays the area.
+
+* A constructor with float parameters that calculates and displays the perimeter.
+
+* A constructor with double parameters that checks whether the shape is a Square or a Rectangle.
+
+This highlights how constructor overloading allows the same class to perform different tasks depending on the type of arguments passed during object creation.
+
+*ALGORITHM:*
+
+1> Start
+
+2> Define a class Rectangle with three constructors:
+
+* Rectangle(int length, int width) → calculates and displays the area.
+
+* Rectangle(float length, float width) → calculates and displays the perimeter.
+
+* Rectangle(double length, double width) → checks whether the shape is a Square or Rectangle.
+
+3> In main():
+
+* Create object r1(10, 5) → calls integer constructor to compute area.
+
+* Create object r2(10.5f, 5.5f) → calls float constructor to compute perimeter.
+
+* Create object r3(6.0, 6.0) → calls double constructor to check shape type.
+
+4> Display results directly from constructors.
+
+5> End
+
+# Conclusion:
+
+Constructor overloading in C++ provides multiple ways to initialize objects within the same class, enhancing flexibility and usability.
+It improves code readability, reduces redundancy, and allows different initialization scenarios with ease.
+Thus, it is a powerful feature of Object-Oriented Programming that makes programs more robust and user-friendly.
+
